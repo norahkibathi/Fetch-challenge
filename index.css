@@ -13,10 +13,12 @@ html {
     color: rgb(255, 255, 255);
     padding: 0.8em;
   }
-  #title{
+  #heading{
     font-size: larger;
     font-weight: 400;
     color: white;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   #data {
@@ -50,11 +52,11 @@ html {
   }
   
   input[type="submit"], button {
-    background-color: rgb(206, 94, 191);
+    background-color: blue;
     color: rgb(42, 99, 165);
     font-size: 30px;
     border-radius: 5px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }
   
   input[type="text"] {
@@ -62,10 +64,10 @@ html {
   }
   
   #image{
-    width: 300px;
+    width: 250px;
     height: 200px;
   }
   h4{
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(116, 97, 220);
   }
